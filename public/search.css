@@ -1,0 +1,107 @@
+/* buscar.css */
+body {
+    background-color: #f4f4f9;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 700px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.card {
+    background: #fdfdfd;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.card p {
+    margin: 0 0 10px;
+}
+
+.inline-form {
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+}
+
+input[type="text"] {
+    padding: 6px 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    margin-right: 6px;
+}
+
+button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-modificar {
+    background-color: #007bff;
+}
+
+.btn-modificar:hover {
+    background-color: #0056b3;
+}
+
+.btn-eliminar {
+    background-color: #dc3545;
+}
+
+.btn-eliminar:hover {
+    background-color: #a71d2a;
+}
+
+.btn-return {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn-return:hover {
+    background-color: #0947a1;
+}
+.not-found {
+    color: #b00020;
+}
+
+.not-found .icon {
+    font-size: 72px;
+    margin-bottom: 20px;
+    color: #b00020;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.6;
+        transform: scale(1.1);
+    }
+}
